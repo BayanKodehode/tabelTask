@@ -2,19 +2,18 @@
 <html lang="en">
 <style>
     table {
-        border-spacing: 0;
-        border: double solid rgb(0, 0, 0);
         width: 100%;
-        border-width: 1px;
+        border-width: 6px;
+        border: 5% solid rgb(0, 0, 0);
     }
 
     caption {
         font-size: 3em;
         text-align: center;
+        caption-side:bottom;
     }
 
-    th,
-    td {
+    th,td {
         text-align: center;
         padding: 1em;
     }
@@ -47,7 +46,8 @@
     }
 
     .cell-highlight {
-    background-color: #ffd700;
+    color:#f2f2f2;
+    background-color: #000;
     font-weight: bold;
     }
 
@@ -64,9 +64,11 @@
 <body>
     <section>
         <table border="1">
+            <tr> 
             <caption>Time Table</caption>
+            </tr>
             <tr>
-                <th>Day / Period</th>
+                <th><cite>Day / Period</cite></th>
                 <th>&#8544;<br>09:30 10:20</th>
                 <th>&#8545;<br>10:20 11:10</th>
                 <th>&#8546;<br>11:20 12:00</th>
@@ -123,10 +125,10 @@
             <tr>
                 <th>Saturday</th>
                 <td>Eng</td>
-                <td>Che</td>
-                <td>Mat</td>
-                <td colspan="3">SEMINAR</td>
                 <td class="cell-highlight">SPORTS</td>
+                <td>Che</td>
+                <td colspan="3">SEMINAR</td>
+                <td>Che</td>
             </tr>
         </tbody>
         </table>
